@@ -18,23 +18,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="client.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="client.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="648">
+              <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
               <folding>
-                <element signature="e#23#38#0" expanded="true" />
+                <element signature="e#24#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Json_output.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Json_output.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Json_output.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+            <state relative-caret-position="216">
+              <caret line="12" column="121" lean-forward="false" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="121" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -55,8 +55,8 @@
       <file leaf-file-name="html_output.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/html_output.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+            <state relative-caret-position="144">
+              <caret line="8" column="78" lean-forward="true" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -68,8 +68,10 @@
         <entry file="file://$PROJECT_DIR$/output_html.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="2734" lean-forward="false" selection-start-line="0" selection-start-column="2734" selection-end-line="0" selection-end-column="2734" />
-              <folding />
+              <caret line="10" column="1432" lean-forward="false" selection-start-line="10" selection-start-column="1432" selection-end-line="10" selection-end-column="1432" />
+              <folding>
+                <marker date="1497001498026" expanded="true" signature="5:8" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,6 +97,7 @@
       <find>api_key</find>
       <find>smart_article_dict</find>
       <find>article</find>
+      <find>urlparse</find>
     </findStrings>
     <replaceStrings>
       <replace>private_api_key</replace>
@@ -110,8 +113,8 @@
         <option value="$PROJECT_DIR$/exceptions.py" />
         <option value="$PROJECT_DIR$/output.py" />
         <option value="$PROJECT_DIR$/facebook.py" />
-        <option value="$PROJECT_DIR$/client.py" />
         <option value="$PROJECT_DIR$/output_html.html" />
+        <option value="$PROJECT_DIR$/client.py" />
         <option value="$PROJECT_DIR$/Json_output.py" />
         <option value="$PROJECT_DIR$/html_output.py" />
       </list>
@@ -363,7 +366,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2914847" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16048035" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -388,7 +391,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/client.py</url>
-          <line>6</line>
+          <line>8</line>
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="1" />
@@ -401,7 +404,7 @@
         <state relative-caret-position="126">
           <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding>
-            <element signature="e#23#38#0" expanded="true" />
+            <element signature="e#24#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -428,7 +431,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="258" lean-forward="true" selection-start-line="9" selection-start-column="258" selection-end-line="9" selection-end-column="258" />
-          <folding />
+          <folding>
+            <marker date="1497001498026" expanded="true" signature="5:8" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -443,6 +448,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/facebook.py" />
+    <entry file="file://$PROJECT_DIR$/output_html.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="10" column="1432" lean-forward="false" selection-start-line="10" selection-start-column="1432" selection-end-line="10" selection-end-column="1432" />
+          <folding>
+            <marker date="1497001498026" expanded="true" signature="5:8" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html_output.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="78" lean-forward="true" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/exceptions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -451,40 +476,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="e#23#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/output_html.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="2734" lean-forward="false" selection-start-line="0" selection-start-column="2734" selection-end-line="0" selection-end-column="2734" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/html_output.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Json_output.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="21" column="52" lean-forward="true" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+        <state relative-caret-position="216">
+          <caret line="12" column="121" lean-forward="false" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="121" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="17" lean-forward="false" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding>
+            <element signature="e#24#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
