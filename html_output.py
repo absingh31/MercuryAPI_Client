@@ -1,5 +1,6 @@
 import Json_output
 import webbrowser
+import html_text
 
 if __name__=='__main__':
     api_key = input('Enter the private api key')
@@ -13,7 +14,7 @@ if __name__=='__main__':
     f.write(html_open)
 
     if (len(content['title'])!=0):
-        html_heading = """<center><h1>%s</h1></center>"""%(content['title'])
+        html_heading = """<h1 align="center">%s</h1>"""%(content['title'])
         f.write(html_heading)
 
     if len(content['author'])!=0:
@@ -25,11 +26,14 @@ if __name__=='__main__':
         f.write(html_date)
 
     if (len(content['content'])!=0):
-        html_body = """%s"""%(content['content'])
+        tree = html_text.parse_html(content['content'])
+        text = html_text.extract_text(tree)
+        html_body = """%s"""%(text)
         f.write(html_body)
     html_close = """</html>"""
     f.write(html_close)
 
     f.close()
     webbrowser.open_new_tab('output_html.html')
+
 
