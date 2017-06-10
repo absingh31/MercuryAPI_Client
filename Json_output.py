@@ -9,9 +9,9 @@ def result(key, url):
 
     return json_output
 
-    '''Can see the example by uncommenting the lines below'''
-#a=result('zEbEqMY846voNjx8urJPNdDW99amKrRnjbLXkZz0', 'http://www.hackersnewsbulletin.com/2017/06/powerpoint-malware.html')
-#pprint.pprint(a)
+    '''Can see the example output in json format by uncommenting the lines below'''
+a=result('zEbEqMY846voNjx8urJPNdDW99amKrRnjbLXkZz0', 'http://timesofindia.indiatimes.com/nri/other-news/uk-gets-its-first-female-sikh-mp-in-general-election/articleshow/59064564.cms')
+pprint.pprint(a)
 
 '''Uncomment these 3 lines to get only th text of main content'''
 # tree = html_text.parse_html(a['content'])
@@ -19,9 +19,9 @@ def result(key, url):
 # print(text)
 
 #Better way to print the result
-if __name__=='__main__':
-    api_key = input('Enter the api key')
-    article_url = input("Enter the article's url")
-
-    response = result(api_key, article_url)
-    pprint.pprint(response)
+# if __name__=='__main__':
+#     api_key = input('Enter the api key')
+#     article_url = input("Enter the article's url")
+#
+#     response = result(api_key, article_url)
+#     pprint.pprint(response)

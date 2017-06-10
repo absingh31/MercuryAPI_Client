@@ -46,10 +46,3 @@ class MercuryAPICall:
 # u=input('Enter the url to get base url')
 # site_base_url=MercuryAPICall.get_top_domain(u)
 # print(site_base_url)
-
-
-
-
-
-
-
