@@ -1,6 +1,6 @@
 import Json_output
 #import client
-
+import numpy
 import tldextract
 import webbrowser
 #import html_text
@@ -10,10 +10,16 @@ if __name__=='__main__':
     url = input('Enter the article url')
 
     content = Json_output.result(api_key, url)
-
+    
+    if (content == None):
+        print("ERROR: can't get a valid response from the API")
+        exit(0)
     f=open("output_html.html", 'w')
 
-    html_open = """<html> \n<head>\n<meta name="viewport" content="width=device-width, initial-scale=1.0">\n<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">\n<link rel="stylesheet" type="text/css" href="style.css">\n</head>\n<body>"""
+    html_open = """<html> \n<head>\n<meta name="viewport" content="width=device-width, initial-scale=1.0">\n
+                   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">\n
+                   <link rel="stylesheet" type="text/css" href="style.css">\n</head>\n<body>"""
+
     f.write(html_open)
 
     # Title of the content added to local html file
