@@ -70,4 +70,3 @@ if __name__=='__main__':
     # All additions to local html file done
     f.close()
     webbrowser.open_new_tab('output_html.html')
-
